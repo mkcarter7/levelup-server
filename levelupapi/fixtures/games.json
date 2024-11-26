@@ -1,0 +1,28 @@
+[
+  {
+      "model": "levelupapi.game",
+      "pk": 1,
+      "fields": {
+          "game_type": 1,
+          "title": "Call of Duty",
+          "maker": "Activision",
+          "gamer": 1,
+          "number_of_players": 4,
+          "skill_level":2
+      }
+  },
+  [
+    {
+        "model": "levelupapi.gamer",
+        "pk": 2,
+        "fields": {
+            "game_type": 1,
+            "title": "Halo",
+            "maker": "Bungie",
+            "gamer": 1,
+            "number_of_players": "100",
+            "skill_level": 2
+        }
+    }
+]
+]
