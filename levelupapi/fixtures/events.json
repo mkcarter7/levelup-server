@@ -1,0 +1,24 @@
+[
+  {
+    "model": "levelupapi.event",
+    "pk": 1,
+    "fields": {
+      "game": 1,
+      "description": "Call of Duty event",
+      "organizer": 1,
+      "date": "2025-1-03",
+      "time": "06:00"
+    }
+  },
+  {
+    "model":"levelupapi.event",
+    "pk": 2,
+    "fields": {
+      "game": 2,
+      "description": "Halo event",
+      "organizer": 1,
+      "date":"2025-1-03",
+      "time":"06:00"
+    }
+  }
+]
